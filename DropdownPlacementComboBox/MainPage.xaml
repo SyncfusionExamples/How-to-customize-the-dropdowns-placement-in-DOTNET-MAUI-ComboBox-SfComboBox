@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:editors="clr-namespace:Syncfusion.Maui.Inputs;assembly=Syncfusion.Maui.Inputs"
+            xmlns:ListCollection="clr-namespace:System.Collections.Generic;assembly=netstandard"
+           xmlns:local="clr-namespace:DropdownwidthMaui"
+             x:Class="DropdownwidthMaui.MainPage">
+
+    <editors:SfComboBox  WidthRequest="200" 
+                          HeightRequest = "40"
+                          DropDownPlacement = "Auto">
+        <editors:SfComboBox.ItemsSource>
+            <x:Array Type="{x:Type x:String}">
+                <x:String>Telegram</x:String>
+                <x:String>Televzr</x:String>
+                <x:String>Tik Tok</x:String>
+                <x:String>Tout</x:String>
+                <x:String>Tumblr</x:String>
+                <x:String>Twitter</x:String>
+            </x:Array>
+        </editors:SfComboBox.ItemsSource>
+    </editors:SfComboBox>
+
+
+</ContentPage>
