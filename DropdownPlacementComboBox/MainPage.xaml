@@ -6,7 +6,7 @@
 
     <editors:SfComboBox  WidthRequest="200" 
                           HeightRequest = "40"
-                          DropDownPlacement = "Auto">
+                          DropDownPlacement = "Top">
         <editors:SfComboBox.ItemsSource>
             <x:Array Type="{x:Type x:String}">
                 <x:String>Telegram</x:String>
