@@ -2,7 +2,7 @@ using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 using System;
 
-namespace DropdownwidthMaui
+namespace DropdownplacementCombobox
 {
     internal class Program : MauiApplication
     {

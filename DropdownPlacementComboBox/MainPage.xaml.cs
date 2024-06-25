@@ -1,6 +1,4 @@
-﻿using System.Runtime.InteropServices.Marshalling;
-
-namespace DropdownwidthMaui
+﻿namespace DropdownplacementCombobox
 {
     public partial class MainPage : ContentPage
     {
@@ -9,13 +7,6 @@ namespace DropdownwidthMaui
             InitializeComponent();
         }
 
-        //private void Slider_ValueChanged(object sender, ValueChangedEventArgs e)
-        //{
-        //    Widthslider.Value = e.NewValue;
-        //    Combobox.DropdownWidth = Widthslider.Value;
-        //    Combobox1.DropdownWidth = Widthslider.Value;
-        //    WidthLabel.Text = $"DropdownWidth : {(int)Widthslider.Value}";
-        //}
     }
 
 }

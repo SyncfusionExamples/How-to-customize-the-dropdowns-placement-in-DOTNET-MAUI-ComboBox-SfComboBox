@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using Syncfusion.Maui.Core.Hosting;
 
-namespace DropdownwidthMaui
+namespace DropdownplacementCombobox
 {
     public static class MauiProgram
     {
